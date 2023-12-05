@@ -1,0 +1,59 @@
+#root {
+  margin: 0 auto;
+}
+
+/* mobile screen */
+.container {
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    width: 540px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 720px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 960px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px !important;
+  }
+}
+
+/* coding with nick */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+.swiper-slide-shadow-right {
+  background-image: linear-gradient(to right, #00a6e880, rgba(0, 0, 0, 0)) !important;
+}
+
+.swiper-slide-shadow-left {
+  background-image: linear-gradient(to left, #00a6e880, rgba(0, 0, 0, 0)) !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+}
