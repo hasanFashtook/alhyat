@@ -56,7 +56,7 @@ function Footer({ className }) {
             </li>
           </ul>
         </div>
-        <p className=' py-4 font-bold'>Powered & Designed By Levant Company</p>
+        <p className=' py-4 font-bold text-center'>Powered & Designed By Levant Company</p>
       </div>
     </div>
   )

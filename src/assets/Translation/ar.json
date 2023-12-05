@@ -8,8 +8,12 @@
   "callToAction1":"أصبح حجز الرحلات أسهل وفي",
   "callToAction2":"متناول يدك.." ,
   "callToAction3":"حمل تطبيق الحياة للسياحة الآن!",
-  "variousTrips":"رحلات متنوعة",
-  "chooseFlight":"يمكنك اختيار مقعد جلوسك في الرحلة...",
   "categories":"الأصناف",
-  "privacyPolicy":" سياسية الخصوصية"
+  "privacyPolicy":" سياسية الخصوصية",
+  "chooseSeat":"اختر مقعدك",
+  "chooseFlight":"يمكنك اختيار مقعد جلوسك في الرحلة...",
+  "freeDelivery":"توصيل مجاني",
+  "freeDeliveryDes":"يمكنك طلب سيارة لتقلّ ك مجانا إلى نقطة الانطلاق",
+  "variousTrips":"رحلات متنوعة",
+  "variousTripsDes":"رحلات متنوعة و فيز إلى مختلف المدن..."
 }

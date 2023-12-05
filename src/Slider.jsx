@@ -57,6 +57,9 @@ function Slider({ className }) {
           controller={{
             control: contrledSwiper
           }}
+          dir={{
+            
+          }}
           modules={[EffectFade, Controller,Autoplay, Pagination]}
           className="mySwiper subSlider h-full w-full"
         >

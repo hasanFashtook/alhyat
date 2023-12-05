@@ -27,7 +27,7 @@ a {
 }
 
 nav a {
-  color: white;
+  font-weight: 600;
 }
 
 a:hover {

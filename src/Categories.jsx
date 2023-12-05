@@ -11,12 +11,16 @@ import { useTranslation } from 'react-i18next';
 
 
 function Categories({ className }) {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className={'Categories ' + className} >
-      <div className="container">
-        <h1>{t('categories')}</h1>
+      <div className="container ">
+        <h1 className=' relative text-center'>{t('categories')}
+          <a
+            className=' capitalize absolute bottom-0 mx-4 text-2xl text-main'
+            href="">veiw more</a>
+        </h1>
         <Swiper
           effect={'coverflow'}
           grabCursor={true}

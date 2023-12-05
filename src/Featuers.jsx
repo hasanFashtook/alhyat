@@ -15,8 +15,21 @@ function Featuers({ className }) {
                 alt=""
               />
             </div>
-            <dl className=' mt-4'>
-              <dt className=' text-2xl font-extrabold text-black'>{t('variousTrips')} </dt>
+            <dl className=' mt-4 text-center'>
+              <dt className=' text-2xl font-extrabold text-black'>{t('freeDelivery')}</dt>
+              <dd className=' text-xl font-semibold'>{t('freeDeliveryDes')}</dd>
+            </dl>
+          </li>
+          <li className=' bg-secound rounded-2xl p-5 mx-auto'>
+            <div className=' aspect-square rounded-xl overflow-hidden'>
+              <img
+                className='w-full h-full object-cover'
+                src="/src/assets/images/family-travel.jpg"
+                alt=""
+              />
+            </div>
+            <dl className=' mt-4 text-center'>
+              <dt className=' text-2xl font-extrabold text-black'>{t('chooseSeat')}</dt>
               <dd className=' text-xl font-semibold'>{t('chooseFlight')}</dd>
             </dl>
           </li>
@@ -28,22 +41,9 @@ function Featuers({ className }) {
                 alt=""
               />
             </div>
-            <dl className=' mt-4'>
-              <dt className=' text-2xl font-extrabold text-black'>رحلات متنوعة</dt>
-              <dd className=' text-xl font-semibold'>يمكنك اختيار مقعد جلوسك في الرحلة...</dd>
-            </dl>
-          </li>
-          <li className=' bg-secound rounded-2xl p-5 mx-auto'>
-            <div className=' aspect-square rounded-xl overflow-hidden'>
-              <img
-                className='w-full h-full object-cover'
-                src="/src/assets/images/family-travel.jpg"
-                alt=""
-              />
-            </div>
-            <dl className=' mt-4'>
-              <dt className=' text-2xl font-extrabold text-black'>رحلات متنوعة</dt>
-              <dd className=' text-xl font-semibold'>يمكنك اختيار مقعد جلوسك في الرحلة...</dd>
+            <dl className=' mt-4 text-center'>
+              <dt className=' text-2xl font-extrabold text-black'>{t('variousTrips')}</dt>
+              <dd className=' text-xl font-semibold'>{t('variousTripsDes')}</dd>
             </dl>
           </li>
         </ul>

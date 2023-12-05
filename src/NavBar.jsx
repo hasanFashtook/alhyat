@@ -13,7 +13,7 @@ function NavBar({ className }) {
 
   return (
     <nav className={'NavBar ' + className} >
-      <div className="container h-16 md:h-20 flex justify-between items-center">
+      <div className="container text-base text-black h-16 md:h-20 flex justify-between items-center">
         <ul className=' flex gap-4'>
           <li><a href="#contact">{t('contact')}</a></li>
           <li><a href="#about">{t('about')}</a></li>
